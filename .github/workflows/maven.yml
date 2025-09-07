@@ -56,4 +56,7 @@ jobs:
           name: java-artifact
           path: ./target
 
+      - name: Run tests
+        run: mvn test
+
       
